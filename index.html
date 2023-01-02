@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="indonesian">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<header class="header">
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"> <span>ali</span>Garage </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#vehicles">Kendaraan</a>
+        <a href="#services">servis</a>
+        <a href="#featured">Keunggulan</a>
+        <a href="#reviews">reviews</a>
+        <a href="#contact">Kontak</a>
+    </nav>
+
+    <div id="login-btn">
+        <button class="btn">login</button>
+        <i class="far fa-user"></i>
+    </div>
+
+</header> 
+    
+    
+<div class="login-form-container">
+
+    <span id="close-login-form" class="fas fa-times"></span>
+
+    <form action="">
+        <h3>user login</h3>
+        <input type="email" placeholder="email" class="box">
+        <input type="password" placeholder="password" class="box">
+        <p> forget your password <a href="#">click here</a> </p>
+        <input type="submit" value="login" class="btn">
+        <p>or login with</p>
+        <div class="buttons">
+            <a href="#" class="btn"> google </a>
+            <a href="#" class="btn"> facebook </a>
+        </div>
+        <p> don't have an account <a href="#">create one</a> </p>
+    </form>
+
+</div>
+
+<section class="home" id="home">
+
+    <h3 data-speed="-2" class="home-parallax">find your car</h3>
+
+    <img data-speed="5" class="home-parallax" src="image/home-img.png" alt="">
+
+    <a data-speed="7" href="#" class="btn home-parallax">explore cars</a>
+
+</section>
+
+<section class="icons-container">
+
+    <div class="icons">
+        <i class="fas fa-home"></i>
+        <div class="content">
+            <h3>150+</h3>
+            <p>Cabang</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-car"></i>
+        <div class="content">
+            <h3>4770+</h3>
+            <p>Mobil Terjual</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-users"></i>
+        <div class="content">
+            <h3>320+</h3>
+            <p>Pendukung</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-car"></i>
+        <div class="content">
+            <h3>1500+</h3>
+            <p>news cars</p>
+        </div>
+    </div>
+
+</section>
+
+<section class="vehicles" id="vehicles">
+
+    <h1 class="heading"> Kendaraan <span>Populer</span> </h1>
+
+    <div class="swiper vehicles-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/vehicle-1.png" alt="" title="Porsche 911">
+                <div class="content">
+                    <h3>Porsche 911</h3>
+                    <div class="price"> <span>Harga : </span> Rp.220.000.000/- </div>
+                    <p>
+                        Baru
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> Otomatis
+                        <span class="fas fa-circle"></span> Bensin
+                        <span class="fas fa-circle"></span> 200mph
+                    </p>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/vehicle-2.png" alt="" title="Porsche Panamera">
+                <div class="content">
+                    <h3>Porsche Panamera</h3>
+                    <div class="price"> <span>Harga : </span> Rp.130.000.000/- </div>
+                    <p>
+                        Baru
+                        <span class="fas fa-circle"></span> 2017
+                        <span class="fas fa-circle"></span> Otomatis
+                        <span class="fas fa-circle"></span> Bensin
+                        <span class="fas fa-circle"></span> 183mph
+                    </p>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/vehicle-3.png" alt="" title="Porsche Panamera">
+                <div class="content">
+                    <h3>Porsche Panamera</h3>
+                    <div class="price"> <span>Harga : </span> Rp.300.000.000/- </div>
+                    <p>
+                        Baru
+                        <span class="fas fa-circle"></span> 2019
+                        <span class="fas fa-circle"></span> Otomatis
+                        <span class="fas fa-circle"></span> Bensin
+                        <span class="fas fa-circle"></span> 240mph
+                    </p>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/vehicle-4.png" alt="" title="Porsche Cayman">
+                <div class="content">
+                    <h3>Porsche Cayman</h3>
+                    <div class="price"> <span>Harga : </span> Rp.1000.000.000/- </div>
+                    <p>
+                        Baru
+                        <span class="fas fa-circle"></span> 2022
+                        <span class="fas fa-circle"></span> Otomatis
+                        <span class="fas fa-circle"></span> Bensin
+                        <span class="fas fa-circle"></span> 180mph
+                    </p>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/vehicle-5.png" alt="" title="Porsche Boxster">
+                <div class="content">
+                    <h3>Porsche Boxster</h3>
+                    <div class="price"> <span>Harga : </span> Rp.150.000.000/- </div>
+                    <p>
+                        Baru
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> Otomatis
+                        <span class="fas fa-circle"></span> Bensin
+                        <span class="fas fa-circle"></span> 1200mph
+                    </p>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/vehicle-6.png" alt="" title="Porsche Cayenne">
+                <div class="content">
+                    <h3>Porsche Cayenne</h3>
+                    <div class="price"> <span>Harga : </span> Rp.120.000.000/- </div>
+                    <p>
+                    Baru
+                    <span class="fas fa-circle"></span> 2023
+                    <span class="fas fa-circle"></span> Otomatis
+                    <span class="fas fa-circle"></span> Bensin
+                    <span class="fas fa-circle"></span> 180mph
+                    </p>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<section class="services" id="services">
+
+    <h1 class="heading"> Layanan <span>Kami</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-car"></i>
+            <h3>Penjualan Mobil</h3>
+            <p>menyediakan stok mobil populer.</p>
+            <a href="#" class="btn"> read more</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-tools"></i>
+            <h3>Suku Cadang</h3>
+            <p>Menyedikan berbagai suku cadang kendaraan.</p>
+            <a href="#" class="btn"> read more</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-car-crash"></i>
+            <h3>Asuransi Kendaraan</h3>
+            <p>Toko kami mayediakan asuransi apabila terjadi sesuatu pada kendaraan.</p>
+            <a href="#" class="btn"> read more</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-car-battery"></i>
+            <h3>Servis Baterai/Aki Mobil</h3>
+            <p>Melayani servis kelistrikan kendaraan.</p>
+            <a href="#" class="btn"> read more</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-gas-pump"></i>
+            <h3>Servis Oli</h3>
+            <p>melayani servis pada mesin kendaraan.</p>
+            <a href="#" class="btn"> read more</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-headset"></i>
+            <h3>24/7 support</h3>
+            <p>telah memiliki banyak dukungan dari berbagai macam bidang.</p>
+            <a href="#" class="btn"> read more</a>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <span>Mobil</span> Unggulan </h1>
+
+    <div class="swiper featured-slider">
+
+       <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/car-1.png" alt="" title="Mercedes-Benz Kelas-SL">
+                <div class="content">
+                    <h3>Mercedes-Benz Kelas-SL</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">Rp.120.000.000/-</div>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/car-2.png" alt="" title="MG ZS">
+                <div class="content">
+                    <h3>MG ZS</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">Rp.300.000.000/-</div>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/car-3.png" alt="" title="Opel Corsa-e">
+                <div class="content">
+                    <h3>Opel Corsa-e</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">Rp.250.000.000/-</div>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/car-4.png" alt="" title="Audi e-tron">
+                <div class="content">
+                    <h3>Audi e-tron</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">Rp.150.000.000/-</div>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+
+       </div>
+
+       <div class="swiper-pagination"></div>
+
+    </div>
+
+    <div class="swiper featured-slider">
+
+        <div class="swiper-wrapper">
+ 
+             <div class="swiper-slide box">
+                 <img src="image/car-5.png" alt="" title="Kia Sportage">
+                 <div class="content">
+                     <h3>Kia Sportage</h3>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                     </div>
+                     <div class="price">Rp.1000.000.000/-</div>
+                     <a href="#" class="btn">check out</a>
+                 </div>
+             </div>
+ 
+             <div class="swiper-slide box">
+                 <img src="image/car-6.png" alt="" title="Honda Civic">
+                 <div class="content">
+                     <h3>Honda Civic</h3>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                     </div>
+                     <div class="price">Rp.120.000.000/-</div>
+                     <a href="#" class="btn">check out</a>
+                 </div>
+             </div>
+ 
+             <div class="swiper-slide box">
+                 <img src="image/car-7.png" alt="" title="Kia Sonet">
+                 <div class="content">
+                     <h3>Kia Sonet</h3>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                     </div>
+                     <div class="price">Rp.650.000.000/-</div>
+                     <a href="#" class="btn">check out</a>
+                 </div>
+             </div>
+ 
+             <div class="swiper-slide box">
+                 <img src="image/car-8.png" alt="" title="Chevrolet Equinox">
+                 <div class="content">
+                     <h3>Chevrolet Equinox</h3>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                     </div>
+                     <div class="price">Rp.500.000.000/-</div>
+                     <a href="#" class="btn">check out</a>
+                 </div>
+             </div>
+ 
+        </div>
+ 
+        <div class="swiper-pagination"></div>
+ 
+     </div>
+
+</section>
+
+<section class="newsletter">
+    
+
+   <form action="">
+        <input type="email" placeholder="enter your email">
+        <input type="submit" value="subscribe">
+   </form>
+
+</section>
+
+<section class="reviews" id="reviews">
+
+    <h1 class="heading"> client's <span>review</span> </h1>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/pic-1.png" alt="">
+                <div class="content">
+                    <p></p>
+                    <h3>Johan</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-2.png" alt="">
+                <div class="content">
+                    <p>pelayanannya sangat bagus.</p>
+                    <h3>Amelya</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-3.png" alt="">
+                <div class="content">
+                    <p>persediaan suku cadangnya sangat lengkap.</p>
+                    <h3>Rehan</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-4.png" alt="">
+                <div class="content">
+                    <p></p>
+                    <h3>Adel</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-5.png" alt="">
+                <div class="content">
+                    <p></p>
+                    <h3>john deo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-6.png" alt="">
+                <div class="content">
+                    <p>model mobilnya bagus-bagus.</p>
+                    <h3>chi chi</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"><span>contact</span> us</h1>
+
+    <div class="row">
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.788252261566!2d72.82321484621745!3d19.141690214227783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1632137920043!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+
+        
+    </div>
+
+</section>
+
+<section class="footer" id="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Lokasi Toko</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Lombok </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Bandung </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Jakarta </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> inggris </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Jerman </a>
+        </div>
+
+        <div class="box">
+            <h3>Nama Menu</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Kendaraan </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> servis </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Unggulan </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> reviews </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Kontak </a>
+        </div>
+
+        <div class="box">
+            <h3>kontak info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +6285337680349 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +6281271211073 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> alijunawan@gmail.com </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> selong, indonesia - 83671 </a>
+        </div>
+
+        <div class="box">
+            <h3>kontak info</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            </a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+        </div>
+
+    </div>
+
+    <div class="credit"> By : Mr. Ali Junawan</div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
